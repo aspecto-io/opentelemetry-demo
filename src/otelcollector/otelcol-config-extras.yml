@@ -10,4 +10,4 @@ exporters:
 service:
   pipelines:
     traces:
-      exporters: [otlp/aspecto]
+      exporters: [logging, otlp, otlp/aspecto]
